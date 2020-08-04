@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "build:externo": "webpack --config ./externo/webpack.config.js"
+    "build:externo": "webpack --config ./externo/webpack.config.js",
+    "build:multiple": "webpack --config ./multi-entrypoints/webpack.config.js"
   },
   "author": "@ByChanderZap",
   "license": "MIT",
