@@ -7,15 +7,20 @@
     "build": "webpack",
     "build:externo": "webpack --config ./externo/webpack.config.js",
     "build:multiple": "webpack --config ./multi-entrypoints/webpack.config.js",
-    "build:css": "webpack --config ./css-style-load/webpack.config.js"
+    "build:css": "webpack --config ./css-style-load/webpack.config.js",
+    "build:plugins": "webpack --config ./plugins/webpack.config.js",
+    "build:dev": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js --watch"
   },
   "author": "@ByChanderZap",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "css-loader": "4.2.0",
+    "html-webpack-plugin": "4.3.0",
+    "mini-css-extract-plugin": "0.9.0",
     "style-loader": "1.2.1",
     "webpack": "4.44.1",
-    "webpack-cli": "3.3.12"
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
   }
 }
