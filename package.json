@@ -4,7 +4,8 @@
   "description": "Aprendiendo webpack",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build:externo": "webpack --config ./externo/webpack.config.js"
   },
   "author": "@ByChanderZap",
   "license": "MIT",
