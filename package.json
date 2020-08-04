@@ -6,12 +6,15 @@
   "scripts": {
     "build": "webpack",
     "build:externo": "webpack --config ./externo/webpack.config.js",
-    "build:multiple": "webpack --config ./multi-entrypoints/webpack.config.js"
+    "build:multiple": "webpack --config ./multi-entrypoints/webpack.config.js",
+    "build:css": "webpack --config ./css-style-load/webpack.config.js"
   },
   "author": "@ByChanderZap",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "css-loader": "4.2.0",
+    "style-loader": "1.2.1",
     "webpack": "4.44.1",
     "webpack-cli": "3.3.12"
   }
