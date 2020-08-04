@@ -1,3 +1,4 @@
 import '../css/index.css'
+import text from './text.js'
 
-document.body.innerHTML = '<p>Hola mundo desde Webpack! home</p>'
+text()
